@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")  # 環境変数からトークン取得
 CHANNEL_ID = int(os.getenv("DISCORD_CHANNEL_ID"))  # 環境変数からチャンネルID取得
-TRANSIFEX_URL = "https://app.transifex.com/dailyroutines/dailyroutines/language/ja/"
+TRANSIFEX_URL = "https://app.transifex.com/dailyroutines/dailyroutines/dashboard/"
 last_checked_text = None
 
 intents = discord.Intents.default()
